@@ -1,9 +1,11 @@
 import React from "react"
+import User from "./components/User";
+
 
 function App() {
   return (
     <div className="App">
-     <h1>My React App</h1>
+     <User bootcamp={ 'Ironhack'} />
     </div>
   );
 }
